@@ -1,0 +1,37 @@
+.btn-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.btn {
+    width: calc(100% /4);
+    padding: 5px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: start;
+    font-size: large;
+}
+
+.btn-num {
+    display: flex;
+    flex-flow: wrap;
+    margin: 5px;
+    justify-content: center;
+}
